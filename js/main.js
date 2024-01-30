@@ -1,7 +1,7 @@
 const productos = [
     { id: 1, nombre: 'Producto 1', precio: 20 },
     { id: 2, nombre: 'Producto 2', precio: 30 },
-    // Agregar más productos 
+    // Agrega más productos 
   ];
   
   document.addEventListener('DOMContentLoaded', cargarProductos);
@@ -54,5 +54,3 @@ const productos = [
     carrito = []; // Limpiar carrito después de la compra
     actualizarCarrito();
   }
-   
-  
